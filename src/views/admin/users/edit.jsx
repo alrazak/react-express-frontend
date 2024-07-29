@@ -30,7 +30,7 @@ export default function UsersEdit() {
     const [password, setPassword] = useState('');
 
     //state validation
-    const [validation, setValidation] = useState('');
+    const [validation, setValidation] = useState([]);
 
     //method fetchDetailUser
     const fetchDetailUser = async () => {
